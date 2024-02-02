@@ -22,7 +22,11 @@ class _MyHomePageState extends State<MyHomePage> {
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
           Expanded(
-            child: Container(),
+            child: Container(
+              height: 200,
+              width: 300,
+              decoration: BoxDecoration(color: Colors.teal[20]),
+            ),
           ),
           Column(
             crossAxisAlignment: CrossAxisAlignment.end,
